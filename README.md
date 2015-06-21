@@ -9,13 +9,13 @@ The purpose of this project is to demonstrate your ability to collect, work with
 * Ensure the unzipped data and the script run_analysis.R are both in the same directory.
 * Type source("run_analysis.R") command in RStudio
 ** This script goes through various steps asked in the assignment: 
-*** reads activity labels
-*** reads in raw data [dim(trainData) # 7352*561; dim(testData) # 2947*561]
-*** merges test and train data 
-*** extracts only measurements on the mean and standard deviation for each measurement
-*** use descriptive activity names to name the activities in the data set
-*** appropriately label the dataset with descriptive names
-*** and finally label with explanatory names and creating the tidy data set.
+1. reads activity labels
+2. reads in raw data [dim(trainData) # 7352*561; dim(testData) # 2947*561]
+3. merges test and train data 
+4. extracts only measurements on the mean and standard deviation for each measurement
+5. use descriptive activity names to name the activities in the data set
+6. appropriately label the dataset with descriptive names
+7. and finally label with explanatory names and creating the tidy data set.
 * The final output is a tidy data set: mergedData_avgbyactbysub.txt
 
 ## Other files in the repo include:
