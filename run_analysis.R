@@ -1,4 +1,3 @@
-setwd("C:/Data/Personal/Jan2015-Dec2015/Coursera/workdir/GettingCleaningData/project")
 library(plyr)
 
 ####################################
